@@ -1,0 +1,19 @@
+{
+  "name": "pwa-push-notifications",
+  "description": "Build a Progressive Web App (PWA) on Next.js with Web Push (VAPID) notifications so users can install the app to their home screen and receive native push notifications when events fire \u2014 engine signals, messages, alerts. Covers manifest.json authoring, service worker (app-shell caching, push handler, notificationclick), VAPID key generation and storage, push_subscriptions table schema, server-side fan-out via the web-push npm package, and the iOS Safari quirks that bite every PWA (no beforeinstallprompt event, push only works from home-screen-launched standalone, Safari-only install path). Use when the user says \"make this a PWA\", \"let users install the app\", \"add push notifications to the phone\", \"send native browser push\", \"Web Push VAPID\", or wants mobile-app-like behavior without going through the App Store.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Build a Progressive Web App (PWA) on Next.js with Web Push (VAPID) notifications so users can install the app to their home screen and receive native push notifications when events fire \u2014 engine signals, messages, alerts. Covers manifest.json authoring, service worker (app-shell caching, push handler, notificationclick), VAPID key generation and storage, push_subscriptions table schema, server-side fan-out via the web-push npm package, and the iOS Safari quirks that bite every PWA (no beforeinstallprompt event, push only works from home-screen-launched standalone, Safari-only install path). Use when the user says \"make this a PWA\", \"let users install the app\", \"add push notifications to the phone\", \"send native browser push\", \"Web Push VAPID\", or wants mobile-app-like behavior without going through the App Store.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pwa-push-notifications",
+      "source": "./plugins/pwa-push-notifications",
+      "description": "Build a Progressive Web App (PWA) on Next.js with Web Push (VAPID) notifications so users can install the app to their home screen and receive native push notifications when events fire \u2014 engine signals, messages, alerts. Covers manifest.json authoring, service worker (app-shell caching, push handler, notificationclick), VAPID key generation and storage, push_subscriptions table schema, server-side fan-out via the web-push npm package, and the iOS Safari quirks that bite every PWA (no beforeinstallprompt event, push only works from home-screen-launched standalone, Safari-only install path). Use when the user says \"make this a PWA\", \"let users install the app\", \"add push notifications to the phone\", \"send native browser push\", \"Web Push VAPID\", or wants mobile-app-like behavior without going through the App Store."
+    }
+  ]
+}
